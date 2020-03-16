@@ -1,0 +1,5 @@
+/nbproject/
+application/config/
+/application/sesiones/
+/application/libraries/
+*.DS_Store 

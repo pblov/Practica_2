@@ -1,0 +1,115 @@
+/*Cambio contraseña*/
+
+p{
+    color:#fff;
+    text-align:center;
+}
+
+#cambio_clave,
+#cambio_clave_confirmar,
+#clave,
+#correo,
+.input-group-text{
+    border-color:#660cd5 !important;
+}
+
+#cambio_clave::placeholder,
+#cambio_clave_confirmar::placeholder,
+#clave::placeholder,
+#correo::placeholder{
+    color:rgb(173, 173, 173);
+}
+
+
+/*LOGIN*/
+.btn-block{
+    display:block;
+    width:100%;
+}
+
+.mtrec{
+    margin-top:2px;
+}
+
+
+
+/*Modal recuperar contraseña*/
+.modal-footer-full{
+    width:100%;
+}
+.moda-footer{
+    border-top-color: #f4f4f4;
+    display:inline-block;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+.modal-footer-btn{
+    width:50%;
+    min-width:fit-content;
+    margin-left:auto;
+    margin-right:auto;  
+}
+.box{
+    border:1px solid #dce3e6;
+}
+.bg-pale-warning{
+    background-color: #fcf0e3 !important;
+}
+
+
+
+/* facebook button */
+
+.fb-login-button{
+    width: 100% !important;
+}
+
+.btn-face{
+    background-color: #3b5998 !important;
+    color: #ffffff;
+}
+
+.btn-face:hover{
+    color: #fff;
+    background-color: #00b3db;
+    border-color: #285e8e; /*set the color you want here*/
+}
+
+.icon{
+    position:absolute;
+    left:26px;
+    font-size:20px;
+    padding-top: 1px;
+}
+
+  .text-fa{
+    text-align: center;
+    margin-left: 10px;
+  }
+
+/* GOOGLE SIGN BUTTON */
+
+  span[id^=not_signed_]:before {
+    content: ' Acceder con Google';
+    padding-right:20px;
+    font-size: 1.1rem  !important;
+}
+
+
+
+span[id^=connected]:before {
+    content: 'Acceder con Google';
+    padding-right:20px;
+    font-size: 1.1rem  !important;
+}
+
+
+.abcRioButton.abcRioButtonLightBlue:hover{
+    transition: 1.1s;
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 6px 17px rgba(0, 0, 0, 0.2);
+
+   
+    
+}

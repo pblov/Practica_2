@@ -1,0 +1,109 @@
+.media {
+   padding: 10px 0px !important;
+   transition: background-color .2s linear;
+}
+
+tbody tr td:nth-child(1) .media a{
+ margin-left:auto;
+ margin-right:auto;
+}
+
+
+tbody tr td:last-child{
+   text-align:center;
+}
+
+
+@media only screen and (min-width: 1900px) {
+   table.dataTable {
+   display    : table;
+    }
+ }
+
+
+ /* div.show-calendar{
+    background-color: darkblue !important;
+ } */
+
+
+ /*Botones calendario.*/
+ button.applyBtn{
+  background-color: #20A19A !important;
+  border-color: #20A19A !important;
+  color:white;
+}
+
+button.applyBtn:hover,
+button.applyBtn:focus{
+  background-color: rgb(21, 95, 93) !important;
+  border-color: rgb(21, 95, 93) !important;
+  color:white;
+}
+
+button.cancelBtn{
+  background-color:#81909c !important;
+  border-color: #81909c !important;
+  color:white;
+}
+
+button.cancelBtn:hover,
+button.cancelBtn:focus{
+  background-color: #2d343a !important;
+  border-color: #2d343a !important;
+  color:white;
+}
+
+td.today.active,
+td.start-date,
+td.end-date,
+td.active.end{
+  background-color: #660CD5 !important;
+}
+
+#form-publicidad-monto:disabled{
+  background-color: whitesmoke;
+  cursor: no-drop;
+}
+/* 
+div.daterangepicker{
+  background-color: #2d343a;
+  border-color:#2d343a;
+}
+
+.calendar-table{
+  background-color: #2d343a !important;
+  border-color:#2d343a !important;
+  color:#fff;
+}
+
+
+
+*/
+
+@media only screen and (max-width: 563px) {
+
+  .daterangepicker.show-calendar .drp-buttons {
+     display: grid !important;
+     text-align: center;
+     margin-top: 5px;
+ }
+
+ .cancelBtn,
+ .applyBtn,
+ .drp-selected{
+    margin-top:3px;
+ }
+}
+
+
+/*  .daterangepicker.show-calendar .drp-buttons {
+  display: grid;
+  text-align: center;
+  margin-top: 5px;
+} */
+
+.daterangepicker .drp-buttons  {
+
+  line-height: 20px !important;
+
+}

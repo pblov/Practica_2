@@ -1,0 +1,143 @@
+@media only screen and (max-width: 768px) {
+    select {
+     text-transform: none !important; /*carga el mobile*/
+     margin-top: 5px !important;
+   }
+
+   ul li .highlighted:focus{
+      background-color:#660CD5 !important;
+   }
+
+ #main-menu li a{
+    border-radius:0px;
+    border-color:rgb(233, 233, 233) !important;
+ }
+
+ 
+ div.dataTables_wrapper div.dataTables_length select {
+     width: 45px !important; /*carga el mobile*/
+     display: inline-block !important;
+  }
+ 
+  div.dataTables_wrapper div.dataTables_info {
+     padding-top: 5em !important;
+     white-space: normal !important;
+ }
+ }
+
+
+ /* Espacios de selectores */
+ 
+ .bootstrap-select li a span{
+    letter-spacing: 0px;
+ }
+ 
+
+/* Navbar, tablas */
+ 
+.dataTables_wrapper table thead,
+.dataTables_paginate span a.current,
+.dataTables_paginate span .paginate_button:hover,
+.main-nav ul li a.current,
+.main-nav ul li a:hover{
+   background-color: #660cd5 !important;
+}
+
+.dataTables_length label {
+   color: #660cd5;
+}
+
+
+.dataTables_paginate span a.current,
+.main-nav ul li a.border,
+.dataTables_paginate span a.paginate_button{
+    border-color: #660cd5 !important;
+}
+
+
+.dataTables_wrapper .top .dt-buttons button.buttons-excel{
+   background-color:#97BF11;
+   border-color:#97BF11;
+}
+
+
+.dataTables_wrapper .top .dt-buttons button.buttons-excel:hover,
+.dataTables_wrapper .top .dt-buttons button.buttons-excel:focus{
+   background-color:rgb(107, 136, 12) !important;
+   border-color:rgb(107, 136, 12) !important;
+
+}
+
+.dataTables_paginate .paginate_button.next:hover,
+.dataTables_paginate .paginate_button.previous:hover{
+   background-color: #660CD5;
+}
+.dataTables_paginate .paginate_button.next.disabled:hover
+.dataTables_paginate .paginate_button.previous.disabled:hover{
+   background-color:none !important;
+}
+
+
+/*Botones de imágenes*/
+
+#form-notificacion-boton-imagen-us-cargar,
+#btn-imagen-aceptar,
+#form-notificacion-boton-imagen-us-cargar-foto,
+#btn-imagen-aceptar-foto{
+   background-color:#cfd8df;
+   border-color:#cfd8df;
+}
+
+#form-notificacion-boton-imagen-us-cargar:hover,
+#btn-imagen-aceptar:hover,
+#form-notificacion-boton-imagen-us-cargar-foto:hover,
+#btn-imagen-aceptar-foto:hover{
+   color:#6c757D;
+   border-color:#d2dde7;
+   background-color:#d2dde7;
+}
+
+
+#btn-imagen-reset,
+#btn-imagen-reset-foto{
+   
+   background-color:#dc3545;
+   color: #fff;
+}
+
+#btn-imagen-reset:hover,
+#btn-imagen-reset-foto:hover{
+   
+   background-color:#dd3445;
+   border-color:#dd3445;
+   color: #fff;
+}
+
+
+
+/*Ajustes en dropzone*/
+
+.image-container{
+   max-height:80vh;
+}
+
+.remove-image-preview{
+   margin-top:5px;
+}
+
+
+ul li .highlighted{
+   background-color:#660CD5 !important;
+}
+
+
+/* btn_tipo_1: Color actual del contador de vista "Publicidad". */ 
+
+button.btn_tipo_1{
+   background-color: #20A19A !important;
+}
+
+button.btn_tipo_1:hover,
+button.btn_tipo_1:focus{
+   background-color: rgb(21, 95, 93) !important;
+}
